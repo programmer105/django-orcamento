@@ -1,0 +1,18 @@
+
+  body {
+      background: white;
+  }
+  .quebrapagina {
+      visibility: hidden;
+      page-break-before: inherit;
+  }
+thead{
+  color: red;
+}
+@media print{
+    /* les styles d'impression commencent ici */
+    thead th{
+background-color: #f5f5f5 !important;
+    }
+
+}
